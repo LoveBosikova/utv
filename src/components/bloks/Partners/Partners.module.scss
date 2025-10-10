@@ -1,0 +1,83 @@
+@import '../../../styles/colors.scss';
+
+// .members {
+//     width: 80%;
+//     max-width: 80%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     font-family: $font-roboto;
+//     color: $blue-dark;
+//     margin-bottom: 10vh;
+//     padding: 5vw 10%;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 18px;
+// }
+
+
+.members {
+  // background-color: red;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-roboto;
+  margin-top: 6vw;
+
+}
+
+.title {
+  color: $blue-dark;
+  text-align: left;
+  font-family: $font-roboto-slab;
+  width: 80%;
+  font-size: 44px;
+}
+
+.list {
+  width: 80%;
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  color: $blue-dark;
+}
+
+.list > li {
+  color: black;
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  margin-bottom: 5vw;
+}
+
+.list > li::before,
+.list > li::after {
+  background: linear-gradient(135deg, rgb(2, 3, 129) 0%, #4CB5E4 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: '';
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+
+.list > li::before {
+  align-items: flex-end;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+  content: counter(gradient-counter);
+  color: #1d1f20;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}

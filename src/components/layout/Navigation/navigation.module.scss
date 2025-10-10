@@ -1,0 +1,59 @@
+@import '../../../styles/colors.scss';
+
+.navigation {
+    width: 100%;
+    gap: 14px;
+    min-height: 40px;
+    // display: flex;
+    color: $white;
+    font-family: $font-roboto-slab;
+    font-size: 28px;
+    background: $gradient--midnight;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    -webkit-box-shadow: 0px 0px 16px 2px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 0px 16px 2px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 0px 16px 20px rgba(34, 60, 80, 0.14);
+}
+
+.linksWrap {
+    display: flex;
+	flex-wrap: wrap;
+    color: $white;
+    padding: 8px 5%;
+    justify-content: space-between;
+    transition: background-position-x 0.9s linear;
+}
+
+.link {
+    color: $white;
+    position: relative;
+    transition: .5s;
+    &:before,
+	&:after{
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 2px;
+		background: $white;
+		transition: .5s;
+		opacity: 0;
+	}
+	
+	&:before{
+		top: 0;
+		left: 0;
+	}
+	
+	&:after{
+		bottom: 0;
+		right: 0;
+	}
+	
+	&:hover:before,
+	&:hover:after{
+		opacity: 1;
+		width: 100%;
+		transition: .5s;
+	}
+}

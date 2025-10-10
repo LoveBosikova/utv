@@ -1,0 +1,33 @@
+@import '../../../styles/colors.scss';
+
+.numbers {
+    // width: 100%;
+    max-width: 100%;
+    min-height: 40vh;
+    background-image: url("../../../assets/numbers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 10vh;
+    padding: 5vw 10%;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+.title {
+    color: $white;
+    text-align: left;
+    font-family: $font-roboto-slab;
+    font-size: 44px;
+}
+
+.text {
+    font-family: $font-roboto;
+    font-size: 40px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
