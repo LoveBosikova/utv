@@ -21,6 +21,7 @@
 	flex-wrap: wrap;
     color: $white;
     padding: 8px 5%;
+	column-gap: 24px;
     justify-content: space-between;
     transition: background-position-x 0.9s linear;
 }

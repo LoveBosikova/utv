@@ -2,12 +2,22 @@ $white: #FFFFFF;
 $grey-dark: #54595F;
 $blue-dark: #10324A;
 $green-accent: #61CE70;
-$blue-primary: #0D5E96;
-$blue-light: #4CB5E4;
+$blue-primary: #514A9D;
+$blue-light: #24C6DC;
 $beige-light: #FDF7F7;
 $blue-pale: #B9D5EB;
 
-$gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+$gradient--midnight: linear-gradient(to right, #514A9D, #24C6DC);
+
+// background: #24C6DC;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+// background: #2980b9;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 // Шрифты
 $font-roboto: "Roboto", sans-serif;
