@@ -14,6 +14,7 @@ import ProjectsPage from './components/pages/ProjectsPage/projectsPage';
 import SertificatePage from './components/pages/SertificatePage/SertificatePage';
 import ContactPage from './components/pages/ContactPage/ContactPage';
 import ProgramsPage from './components/pages/ProgramsPage/ProgramsPage';
+import NewsPage from './components/pages/NewsPage/NewsPage';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path='utv/faces' element={<ContactPage />} />
         <Route path='utv/media' element={<ContactPage />} />
         <Route path='utv/contacts' element={<ContactPage />} />
+        <Route path='utv/news' element={<NewsPage />} />
         <Route path='*' element={<MainPage />} />
       </Routes>
       {/* <Footer /> */}

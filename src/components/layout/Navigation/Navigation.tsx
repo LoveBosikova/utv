@@ -33,6 +33,9 @@ function Navigation () {
                 <NavLink to={'utv/contacts'} end>
                     <li className={style.linkWrap}><p className={style.link}>Контакты</p></li>
                 </NavLink>
+                <NavLink to={'utv/news'} end>
+                    <li className={style.linkWrap}><p className={style.link}>Новости</p></li>
+                </NavLink>
             </ul>
         </nav>
     )
