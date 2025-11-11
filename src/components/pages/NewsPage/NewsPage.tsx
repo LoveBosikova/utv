@@ -1,4 +1,4 @@
-import Feedback from "../../bloks/Feedback/Feedback"
+// import Feedback from "../../bloks/Feedback/Feedback"
 import News from "../../bloks/News/News"
 
 

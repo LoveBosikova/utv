@@ -30,7 +30,7 @@
 // export default VKPostEmbed;
 
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import type { JSX } from "react";
 
 interface VKPostWidgetProps {
