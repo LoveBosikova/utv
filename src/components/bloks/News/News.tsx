@@ -26,6 +26,14 @@ export const NEWS_LINK = [
     id: "112265186_22079", 
     hash: "eNoWWUvRLm7MWJm1glEYmqfWiHuR" 
   },
+  { 
+    id: "152568230_17092", 
+    hash: "sANl-O1JNPLy5mi63rMqGdyZDkQk" 
+  },
+    { 
+    id: "112265186_22418", 
+    hash: "HSw3yXzawTG4IpNV6djOEjZHxWfq" 
+  },
 ];
 
 function News() {
