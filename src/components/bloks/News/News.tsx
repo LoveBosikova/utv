@@ -43,14 +43,7 @@ export const NEWS_LINK = [
     id: "112265186_22079", 
     hash: "eNoWWUvRLm7MWJm1glEYmqfWiHuR" 
   },
-    { 
-    id: "112265186_22465", 
-    hash: "tHauLMv2i3d_qMbgsCPNEXFavy6g" 
-  },
-    { 
-    id: "112265186_22564", 
-    hash: "Eqz0QnHMuGvkafuYDD2oPUJ3TylO" 
-  },
+
 
 
   // { 
