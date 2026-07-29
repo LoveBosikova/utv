@@ -2,8 +2,33 @@ import VKPostEmbed from '../VKPostEmbed/VKPostEmbed';
 import style from './News.module.scss';
 
 export const NEWS_LINK = [
-  // СЮДА НОВЫЕ
-      { 
+  // сюда новые новости
+
+  { 
+    id: "112265186_23607", 
+    hash: "mCsP6VP6jRGpxEgOVShaA9PBCGCOdA" 
+  },
+  { 
+    id: "112265186_23607", 
+    hash: "mCsP6VP6jRGpxEgOVShaA9PBCGCOdA" 
+  },
+  { 
+    id: "112265186_23538", 
+    hash: "yfZ8vG89y2KkjAgBR23-h9JXSTqgvw" 
+  },
+  { 
+    id: "112265186_23529", 
+    hash: "hsJq5Kyed8C5ZWCPEflEYhw_RzuShg" 
+  },
+  { 
+    id: "112265186_23527", 
+    hash: "O7fN0Lb84T6FIUFnUdkQcJAuLF8A9g" 
+  },
+  { 
+    id: "112265186_23521", 
+    hash: "FvXPbFVJHedtmvBJCLxoYwNg8t2mIw" 
+  },
+  { 
     id: "112265186_22564", 
     hash: "Eqz0QnHMuGvkafuYDD2oPUJ3TylO" 
   },
@@ -15,7 +40,7 @@ export const NEWS_LINK = [
     id: "152568230_17092", 
     hash: "sANl-O1JNPLy5mi63rMqGdyZDkQk" 
   },
-    { 
+  { 
     id: "112265186_22418", 
     hash: "HSw3yXzawTG4IpNV6djOEjZHxWfq" 
   },
@@ -44,17 +69,8 @@ export const NEWS_LINK = [
     hash: "eNoWWUvRLm7MWJm1glEYmqfWiHuR" 
   },
 
-
-
-  // { 
-  //   id: "152568230_17092", 
-  //   hash: "sANl-O1JNPLy5mi63rMqGdyZDkQk" 
-  // },
-  //   { 
-  //   id: "112265186_22418", 
-  //   hash: "HSw3yXzawTG4IpNV6djOEjZHxWfq" 
-  // },
 ];
+
 
 function News() {
     return (
